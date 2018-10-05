@@ -1,0 +1,17 @@
+1 se agrega un campo urgencia en la tabla cita
+
+
+/////   18/04/2018 ///////////////
+
+1 se crea tabla 
+CREATE TABLE `riom`.`firma` ( `id` INT(2) NOT NULL , `cita_id` INT NOT NULL ,PRIMARY KEY (`id`(2))) ENGINE = InnoDB;
+y dos campos llamado nom_paciente, paciente_id
+
+
+2 se hace un insert de id = 1 y cita_id = 0
+3 a las citas se le agrega un campo firma por default 0 de int(1)
+
+
+//////// 05/10/2018 /////////////
+1 se crea una tabla encuesta
+
